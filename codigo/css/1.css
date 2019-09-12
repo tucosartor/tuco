@@ -1,0 +1,25 @@
+.center {
+    position: absolute;
+    top: 15%;
+    left: 29%;
+}
+.tableCarro tr:nth-child(2n){
+    background-color: rgb(245,245,245);
+}
+.tableCarro tr:nth-child(2n+1){
+    background-color: rgb(224, 225, 253);
+}
+
+.tableCarro tr:hover{
+    background-color: yellow;
+    cursor: pointer;
+}
+.tableCarro tr:first-child{
+    background-color: black;
+    color: white;
+    font-weight: bolder
+}
+.tableCarro tr td{
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
